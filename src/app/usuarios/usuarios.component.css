@@ -1,0 +1,47 @@
+.example-form-field {
+  width: 30%;
+  margin-right: 25px;
+}
+
+.crearUsuario {
+  height: 60px;
+  width: 60px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-id {
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-usuario {
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-contrasenia {
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-fechaCreacion {
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-acciones {
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}

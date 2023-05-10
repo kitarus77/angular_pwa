@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Crear nuevo usuario</h1>
+<div mat-dialog-content>
+    <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Usuario</mat-label>
+        <input matInput type="text" [(ngModel)]="usuarioCreado.usuario">
+        <button *ngIf="usuarioCreado.usuario" matSuffix mat-icon-button aria-label="Clear" (click)="usuarioCreado.usuario=''">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-form-field>
+
+    <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input matInput type="text" [(ngModel)]="usuarioCreado.contrasenia">
+        <button *ngIf="usuarioCreado.contrasenia" matSuffix mat-icon-button aria-label="Clear" (click)="usuarioCreado.contrasenia=''">
+            <mat-icon>close</mat-icon>
+        </button>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-button cdkFocusInitial (click)="crearUsuario()"> {{ textoBotonCrearModificar }} </button>
+</div>
